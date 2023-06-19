@@ -3,20 +3,21 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://hszx.live",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "衡中生存指南",
+    url: "https://hszx.live",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",//"fontawesome-with-brands",
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "hissincn/hszx.live",
 
   docsDir: "src",
+  fullscreen: true,
 
   // navbar
   navbar,
@@ -24,13 +25,13 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "衡中生存指南",
 
   displayFooter: true,
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      //"/demo/encrypt.html": ["1234"],
     },
   },
 
@@ -43,10 +44,10 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "hissincn/hszx.live",
+      repoId: "R_kgDOJxUcSg",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOJxUcSs4CXUId",
     },
 
     // All features are enabled for demo, only preserve features you need here
@@ -91,60 +92,60 @@ export default hopeTheme({
     },
 
     // uncomment these if you want a pwa
-    // pwa: {
-    //   favicon: "/favicon.ico",
-    //   cacheHTML: true,
-    //   cachePic: true,
-    //   appendBase: true,
-    //   apple: {
-    //     icon: "/assets/icon/apple-icon-152.png",
-    //     statusBarColor: "black",
-    //   },
-    //   msTile: {
-    //     image: "/assets/icon/ms-icon-144.png",
-    //     color: "#ffffff",
-    //   },
-    //   manifest: {
-    //     icons: [
-    //       {
-    //         src: "/assets/icon/chrome-mask-512.png",
-    //         sizes: "512x512",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-mask-192.png",
-    //         sizes: "192x192",
-    //         purpose: "maskable",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-512.png",
-    //         sizes: "512x512",
-    //         type: "image/png",
-    //       },
-    //       {
-    //         src: "/assets/icon/chrome-192.png",
-    //         sizes: "192x192",
-    //         type: "image/png",
-    //       },
-    //     ],
-    //     shortcuts: [
-    //       {
-    //         name: "Demo",
-    //         short_name: "Demo",
-    //         url: "/demo/",
-    //         icons: [
-    //           {
-    //             src: "/assets/icon/guide-maskable.png",
-    //             sizes: "192x192",
-    //             purpose: "maskable",
-    //             type: "image/png",
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
-    // },
+     pwa: {
+       favicon: "/favicon.ico",
+       cacheHTML: true,
+       cachePic: true,
+       appendBase: true,
+       apple: {
+         icon: "/assets/icon/apple-icon-152.png",
+         statusBarColor: "black",
+       },
+       msTile: {
+         image: "/assets/icon/ms-icon-144.png",
+         color: "#ffffff",
+       },
+       manifest: {
+         icons: [
+           {
+             src: "/assets/icon/chrome-mask-512.png",
+             sizes: "512x512",
+             purpose: "maskable",
+             type: "image/png",
+           },
+           {
+             src: "/assets/icon/chrome-mask-192.png",
+             sizes: "192x192",
+             purpose: "maskable",
+             type: "image/png",
+           },
+           {
+             src: "/assets/icon/chrome-512.png",
+             sizes: "512x512",
+             type: "image/png",
+           },
+           {
+             src: "/assets/icon/chrome-192.png",
+             sizes: "192x192",
+             type: "image/png",
+           },
+         ],
+         shortcuts: [
+           {
+             name: "Demo",
+             short_name: "Demo",
+             url: "/demo/",
+             icons: [
+               {
+                 src: "/assets/icon/guide-maskable.png",
+                 sizes: "192x192",
+                 purpose: "maskable",
+                 type: "image/png",
+               },
+             ],
+           },
+         ],
+       },
+     },
   },
 });
