@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",//"fontawesome-with-brands",
 
-  logo: "/logo.svg",
+  //logo: "/logo.png",
 
   repo: "hissincn/hszx.live",
 
@@ -25,7 +25,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "衡中生存指南",
+  //footer: "衡中生存指南",
 
   displayFooter: true,
 
@@ -37,7 +37,7 @@ export default hopeTheme({
 
   // page meta
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "从 GitHub 编辑",
   },
 
   plugins: {
@@ -92,7 +92,7 @@ export default hopeTheme({
     },
 
     // uncomment these if you want a pwa
-     pwa: {
+     /*pwa: {
        favicon: "/favicon.ico",
        cacheHTML: true,
        cachePic: true,
@@ -146,6 +146,6 @@ export default hopeTheme({
            },
          ],
        },
-     },
+     },*/
   },
 });

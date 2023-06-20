@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /logo.png
 heroAlt: 衡中生存指南
 //bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 //bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
